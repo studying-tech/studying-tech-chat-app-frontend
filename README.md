@@ -1,6 +1,6 @@
 # STUDYing Tech Chat App
 
-[GitHub Repository](https://github.com/Tomoki-Saito/studying-tech-chat-app-prod)
+[GitHub Repository](https://github.com/studying-tech/studying-tech-chat-app-frontend)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
