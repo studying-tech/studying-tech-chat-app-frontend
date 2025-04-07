@@ -9,7 +9,6 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { Separator } from '@/components/ui/separator';
 
 export default function SignupPage() {
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -43,17 +42,6 @@ export default function SignupPage() {
             <CardDescription>以下のいずれかの方法で登録してください</CardDescription>
           </CardHeader>
           <CardContent className="grid gap-4">
-            <Button variant="outline">GitHub</Button>
-
-            <div className="relative">
-              <div className="absolute inset-0 flex items-center">
-                <Separator className="w-full" />
-              </div>
-              <div className="relative flex justify-center text-xs uppercase">
-                <span className="bg-background px-2 text-muted-foreground">または</span>
-              </div>
-            </div>
-
             <form onSubmit={handleSubmit}>
               <div className="grid gap-4">
                 <div className="grid gap-1">
